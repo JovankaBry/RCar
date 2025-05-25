@@ -20,7 +20,7 @@ A small, ESP32-based remote-controlled car project using brushless motors, desig
 
 | Component               | Quantity | Description                                 |
 |------------------------|----------|---------------------------------------------|
-| ESP32 Dev Module       | 1        | Main controller (Wi-Fi + Bluetooth capable) |
+| ESP32-C3 Supermini     | 1        | Main controller (Wi-Fi + Bluetooth capable) |
 | Brushless Motor (e.g., 3650) | 1    | Drive motor for high torque/speed           |
 | ESC (e.g., 30A car ESC) | 1        | Controls the brushless motor                |
 | Servo Motor (e.g., SG90 / MG996R) | 1 | Steering system                             |
@@ -37,7 +37,8 @@ A small, ESP32-based remote-controlled car project using brushless motors, desig
 
 ## 📷 Project Preview
 
-*(Add photos or videos of your RC car here)*
+![image](https://github.com/user-attachments/assets/0e7a89e8-c1dd-4ad8-8778-f63d90622e44)
+
 
 ---
 
