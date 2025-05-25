@@ -37,18 +37,23 @@ A small, ESP32-based remote-controlled car project using brushless motors, desig
 
 ## 📷 Project Preview
 1.ESP32-C3 Supermini
+
 ![image](https://github.com/user-attachments/assets/0e7a89e8-c1dd-4ad8-8778-f63d90622e44)
 
 2.Brushless Motor
+
 ![image](https://github.com/user-attachments/assets/6b6495b1-1b1f-4654-8bce-e9b251031d1c)
 
 3.Motor Driver (DRV8301DCAR) 
+
 ![image](https://github.com/user-attachments/assets/8caf0c9a-2df1-416a-b46e-e6d999f8ac4a)
 
 4. Mosfet (AO3400)
+5. 
 ![image](https://github.com/user-attachments/assets/4f4d44cc-d612-4f95-b58c-2d848c51ea31)
 
 5.Servo Motor(SG90)
+
 ![image](https://github.com/user-attachments/assets/b3b8fc74-a058-4250-8e32-cd7d91c5e63d)
 
 6.LipoBattery
