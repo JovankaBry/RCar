@@ -25,6 +25,7 @@ A small, ESP32-based remote-controlled car project using brushless motors, desig
 | ESC (e.g., 30A car ESC) | 1        | Controls the brushless motor                |
 | Servo Motor (e.g., SG90 / MG996R) | 1 | Steering system                             |
 | LiPo Battery (2S/3S)   | 1        | Power source for motor + ESP32              |
+| Step Up Volate  | 1        | Boost 3,7V to 15V         |
 | Motor Mount + Wheels   | 1 set    | For chassis assembly                        |
 | PS5 Controller (Optional) | 1     | For Bluetooth control                       |
 | Ultrasonic Sensor (Optional) | 1  | For distance measurement                    |
