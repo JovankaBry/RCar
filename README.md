@@ -59,6 +59,11 @@ A small, ESP32-based remote-controlled car project using brushless motors, desig
 
 6.LipoBattery
 
+//USE STEP UP 
+
+![image](https://github.com/user-attachments/assets/c5ec9dec-80b9-4c29-91c9-22d1c43e0901)
+
+
 
 
 
