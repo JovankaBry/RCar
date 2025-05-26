@@ -22,15 +22,14 @@ A small, ESP32-based remote-controlled car project using brushless motors, desig
 |------------------------|----------|---------------------------------------------|
 | ESP32-C3 Supermini     | 1        | Main controller (Wi-Fi + Bluetooth capable) |
 | Brushless Motor (e.g., 3650) | 1    | Drive motor for high torque/speed           |
-| ESC (e.g., 30A car ESC) | 1        | Controls the brushless motor                |
-| Servo Motor (e.g., SG90 / MG996R) | 1 | Steering system                             |
+| Motor Driver (DRV8833)  | 1        | Controls the brushless motor                |
+| Servo Motor (SG90 ) | 1 | Steering system                             |
 | LiPo Battery (2S/3S)   | 1        | Power source for motor + ESP32              |
-| Step Up Volate  | 1        | Boost 3,7V to 15V         |
+| Step Up Volate  MT3608 SOT23-6| 1        | Boost 3,7V to 15V         |
 | Motor Mount + Wheels   | 1 set    | For chassis assembly                        |
-| PS5 Controller (Optional) | 1     | For Bluetooth control                       |
+| PS5 Controller | 1     | For Bluetooth control                       |
 | Ultrasonic Sensor (Optional) | 1  | For distance measurement                    |
 | MPU6050 (Optional)     | 1        | IMU for orientation feedback                |
-| Buck Converter (5V)    | 1        | Step-down voltage to power ESP32            |
 | Power Switch           | 1        | On/off toggle                               |
 | Chassis + Wires + Screws | -      | General mechanical components               |
 
@@ -45,23 +44,27 @@ A small, ESP32-based remote-controlled car project using brushless motors, desig
 
 ![image](https://github.com/user-attachments/assets/6b6495b1-1b1f-4654-8bce-e9b251031d1c)
 
-3.Motor Driver (DRV8301DCAR) 
+3.Motor Driver (DRV8833) 
 
-![image](https://github.com/user-attachments/assets/8caf0c9a-2df1-416a-b46e-e6d999f8ac4a)
+![image](https://github.com/user-attachments/assets/12fbf853-9f7b-4820-9b21-c58f826696f6)
+https://de.aliexpress.com/item/32857376192.html?spm=a2g0o.cart.0.0.5cad4ae47fSjmx&mp=1&pdp_npi=5%40dis%21EUR%21EUR%202.50%21EUR%202.05%21%21EUR%202.05%21%21%21%40211b80e117482671612856494e812f%2165342873775%21ct%21DE%211737591246%21%211%210&gatewayAdapt=glo2deu
 
-4. Mosfet (AO3400)
-5. 
 ![image](https://github.com/user-attachments/assets/4f4d44cc-d612-4f95-b58c-2d848c51ea31)
 
-5.Servo Motor(SG90)
+4.Servo Motor(SG90)
 
 ![image](https://github.com/user-attachments/assets/b3b8fc74-a058-4250-8e32-cd7d91c5e63d)
 
-6.LipoBattery
+5.LipoBattery 3,7 3000mAH
 
-//USE STEP UP 
+![image](https://github.com/user-attachments/assets/055ecd44-349f-4089-8217-eb8469a8ca31)
 
-![image](https://github.com/user-attachments/assets/c5ec9dec-80b9-4c29-91c9-22d1c43e0901)
+6.Booster(MT3608 SOT23-6)
+
+![image](https://github.com/user-attachments/assets/b6ee8eec-df11-4d4b-91dd-3f0ed1c8dfd3)
+
+
+
 
 
 
